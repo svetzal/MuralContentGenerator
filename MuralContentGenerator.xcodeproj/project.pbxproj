@@ -15,6 +15,8 @@
 		7A2F03042C8C82F3008800AC /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2F03032C8C82F3008800AC /* Link.swift */; };
 		7A2F03062C8C843F008800AC /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2F03052C8C843F008800AC /* GridLayout.swift */; };
 		7A2F03082C8C96E6008800AC /* Sticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2F03072C8C96E6008800AC /* Sticky.swift */; };
+		7A2F030A2C8CA56E008800AC /* ContentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2F03092C8CA56E008800AC /* ContentBuilder.swift */; };
+		7A2F030C2C8CAA35008800AC /* ClipboardGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2F030B2C8CAA35008800AC /* ClipboardGateway.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		7A2F03032C8C82F3008800AC /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
 		7A2F03052C8C843F008800AC /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		7A2F03072C8C96E6008800AC /* Sticky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticky.swift; sourceTree = "<group>"; };
+		7A2F03092C8CA56E008800AC /* ContentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBuilder.swift; sourceTree = "<group>"; };
+		7A2F030B2C8CAA35008800AC /* ClipboardGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardGateway.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		7A2F02F12C8C82A0008800AC /* MuralContentGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				7A2F030B2C8CAA35008800AC /* ClipboardGateway.swift */,
 				7A2F02F22C8C82A0008800AC /* MuralContentGeneratorApp.swift */,
 				7A2F02F42C8C82A0008800AC /* ContentView.swift */,
 				7A2F02F62C8C82A1008800AC /* Assets.xcassets */,
@@ -69,6 +74,7 @@
 				7A2F03032C8C82F3008800AC /* Link.swift */,
 				7A2F03052C8C843F008800AC /* GridLayout.swift */,
 				7A2F03072C8C96E6008800AC /* Sticky.swift */,
+				7A2F03092C8CA56E008800AC /* ContentBuilder.swift */,
 			);
 			path = MuralContentGenerator;
 			sourceTree = "<group>";
@@ -151,10 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A2F030C2C8CAA35008800AC /* ClipboardGateway.swift in Sources */,
 				7A2F02F52C8C82A0008800AC /* ContentView.swift in Sources */,
 				7A2F02F32C8C82A0008800AC /* MuralContentGeneratorApp.swift in Sources */,
 				7A2F03082C8C96E6008800AC /* Sticky.swift in Sources */,
 				7A2F03062C8C843F008800AC /* GridLayout.swift in Sources */,
+				7A2F030A2C8CA56E008800AC /* ContentBuilder.swift in Sources */,
 				7A2F03022C8C82DD008800AC /* Widget.swift in Sources */,
 				7A2F03042C8C82F3008800AC /* Link.swift in Sources */,
 			);

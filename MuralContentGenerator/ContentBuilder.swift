@@ -1,19 +1,6 @@
-import SwiftUI
+import Foundation
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Button(action: generateButtonWasClicked) {
-                Text("Generate")
-                    .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(8)
-            }
-        }
-        .padding()
-    }
-
+class ContentBuilder {
     func generateMuralContent() -> Dictionary<String,Any> {
         // Create some stickies
         let sticky1 = Sticky(
@@ -33,16 +20,5 @@ struct ContentView: View {
         // Prepare the widgets dictionary for serialization
         let dictionary = gridLayout.toDictionary()
         return dictionary
-    }
-
-    func generateButtonWasClicked() {
-        let dictionary = generateMuralContent()
-        ClipboardGateway().saveToClipboard(dictionary)
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
