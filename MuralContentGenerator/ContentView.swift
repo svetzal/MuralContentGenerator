@@ -38,8 +38,8 @@ struct ContentView: View {
         }
     }
 
-    func generateMuralContent() -> Dictionary[String:Any] {
-        // Example usage of Sticky and GridLayout class
+    func generateMuralContent() -> Dictionary<String,Any> {
+        // Create some stickies
         let sticky1 = Sticky(
             htmlText: "<div><span>Please visit </span><i><span>Stacey's Blog</span></i><span> for </span><b><span>fun</span></b><span> content!</span></div>",
             link: Link(url: "https://stacey.vetzal.com/")
