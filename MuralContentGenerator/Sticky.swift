@@ -9,11 +9,9 @@ class Sticky: Widget {
     var textAlign: String = "center"
     var fontFamily: String = "proxima-nova"
 
-    // Initializer for the Sticky widget
     init(htmlText: String, link: Link? = nil) {
         self.htmlText = htmlText
         self.link = link
-        // Correcting the type to the expected value for the app
         super.init(height: 138, width: 138, type: "murally.widget.TextWidget")
     }
 
@@ -28,12 +26,10 @@ class Sticky: Widget {
             "fontFamily": fontFamily
         ]
 
-        // Add the link to the properties if it's present
         if let link = link {
             properties["link"] = link.toDictionary()
         }
 
-        // Return the base widget properties along with the Sticky-specific properties
         return [
             "height": height,
             "width": width,

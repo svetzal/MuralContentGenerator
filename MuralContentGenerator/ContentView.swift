@@ -5,7 +5,7 @@ struct ContentView: View {
     var stickies: [Sticky]
 
     init() {
-        // Initialize the stickies array
+        // Some example stickies to start with
         self.stickies = [
             Sticky(
                 htmlText: "<div><span>Please visit </span><i><span>Stacey's Blog</span></i><span> for </span><b><span>fun</span></b><span> content!</span></div>",
